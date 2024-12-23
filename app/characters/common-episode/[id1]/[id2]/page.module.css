@@ -1,0 +1,33 @@
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .episodeList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0; 
+  }
+  
+  .episodeItem {
+    background-color: #2fb67c;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    min-width: 100px; 
+  }
+  
+  .loaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }

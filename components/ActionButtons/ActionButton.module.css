@@ -1,0 +1,31 @@
+.actionButton {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #00ff88; 
+  background: linear-gradient(90deg, #002b24, #003f37); 
+  border: 2px solid #00ff88; 
+  border-radius: 8px;
+  padding: 10px 20px; 
+  cursor: pointer;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.actionButton:disabled {
+  color: #6f6f6f; 
+  background: #262626; 
+  border: 2px solid #6f6f6f;
+  cursor: not-allowed;
+  box-shadow: none; 
+}
+
+.actionButton:hover:not(:disabled) {
+  transform: translateY(-3px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+}
+
+.actionButton:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5); 
+}
