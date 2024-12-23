@@ -4,18 +4,6 @@ import axios from 'axios';
 
 const RICK_AND_MORTY_API = 'https://rickandmortyapi.com/api';
 
-// export const getCharacters = async ({ page = 1 }: { page: number }) => {
-//   try {
-//     const response = await axios.get(`${RICK_AND_MORTY_API}/character`, {
-//       params: { page },
-//     });
-//     return response.data;
-//   } catch (error) {
-//     console.error('Error fetching characters:', error);
-//     throw new Error('Failed to fetch characters');
-//   }
-// };
-
 export const getCharacters = async (
   page: number,
   filters: { name?: string; species?: string; gender?: string; status?: string },
