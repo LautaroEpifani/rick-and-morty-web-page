@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Rick and Morty Web Page',
     description: 'All Rick and Morty data you need',
-    url: 'https://github.com/LautaroEpifani/rickAndMortyApi',
+    url: 'https://github.com/LautaroEpifani/rick-and-morty-web-page',
     images: [
       {
         url: '/assets/og-image.webp',
